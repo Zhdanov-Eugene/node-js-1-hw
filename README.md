@@ -10,5 +10,5 @@
     "start": "node index.js",
     "start:dev": "nodemon index.js"
 git add *;
-git commit -m "Commit message"(Created CLI application);
+git commit -m "Created CLI application";
 git push origin main;
