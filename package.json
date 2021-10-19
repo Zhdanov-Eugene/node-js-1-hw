@@ -1,0 +1,29 @@
+{
+  "name": "js-1-hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zhdanov-Eugene/node-js-1-hw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zhdanov-Eugene/node-js-1-hw/issues"
+  },
+  "homepage": "https://github.com/Zhdanov-Eugene/node-js-1-hw#readme",
+  "dependencies": {
+    "commander": "^8.2.0",
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
