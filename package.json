@@ -1,5 +1,5 @@
 {
-  "name": "js-1-hw",
+  "name": "node-js-1-hw",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -21,7 +21,8 @@
   "dependencies": {
     "commander": "^8.2.0",
     "express": "^4.17.1",
-    "uuid": "^8.3.2"
+    "uuid": "^8.3.2",
+    "yargs": "^17.2.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.13"
