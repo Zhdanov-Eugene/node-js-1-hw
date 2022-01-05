@@ -6,6 +6,8 @@ http://joxi.net/823Mkd3uakvJOr
 
 # Добавялем контакт
 http://joxi.net/823Mkd3uakv9Or
+Исправленноє
+https://ibb.co/BgBP5Sc
 
 # Удаляем контакт
 http://joxi.net/bmoeWEwF7LZ9XA
