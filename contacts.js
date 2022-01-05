@@ -1,6 +1,7 @@
 const path = require('path');
 const fs = require('fs').promises;
 const contactsPath = path.resolve('./db/contacts.json');
+
 const { customAlphabet } = require('nanoid');
 const nanoid = customAlphabet('1234567890', 5);
 
@@ -49,7 +50,7 @@ function removeContact(contactId) {
         return console.log(`Contact ${newContact.name} added`)
     }).catch((error) => console.log(error));
 }*/
-async function listContacts(contactsPath) {
+async function newListOfContacts(contactsPath) {
     try {
       const fileData = await fs.readFile(contactsPath, 'utf-8');
       return JSON.parse(fileData);
@@ -66,10 +67,10 @@ async function addContact(name, email, phone) {
       console.error('Please enter correct contact data.');
       return;
     };
-    let parsedData = await listContacts(contactsPath);
+    let parsedData = await newListOfContacts(contactsPath);
     if (parsedData) {
       parsedData.push(contactData);
-      if (listContacts(contactsPath, parsedData)) {
+      if (newListOfContacts(contactsPath, parsedData)) {
         console.error(`Contact ${name} has been successfully added.`);
       } else {
         console.error(`Contact ${name} couldn't be added.`);
